@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Deposit balance into bank account</title>
+<link type="text/css" rel="stylesheet" href="style1.css"><link>
+</head>
+<body>
+<form action="deposit" method="post">
+<div class="container">
+<label>Enter Account Number</label>
+<input type="number" name="acno" required><br>
+<label>Enter User Name</label>
+<input type="text" name="uname" required><br>
+<label>Enter Password</label>
+<input type="password" pattern=".{8,}" name="pass"  required><br>
+<label>Enter amount</label>
+<input type="number" name="damt" required><br>
+<button type="submit" class="depositbtn btn">Deposit</button>
+</div>
+</form>
+<div class="container">
+<a href="home.html"><button type="submit" class="gobackbtn btn">Home</button></a>
+</div>
+</body>
+</html>

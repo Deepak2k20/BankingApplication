@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>About-us page</title>
+  <style type="text/css">
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: ocean;
+}
+
+.btn {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.btn{
+	text-align:center;
+}
+.btn:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.btn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+/*
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+*/
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+  </style>
+</head>
+<body>
+<!--  <div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Our team members </p>
+  <p>who developed this product are</p>
+</div>
+-->
+
+<h2 style="text-align:center">Our Team</h2><hr>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images//team1.jpg" alt="Deepak" style="width:100%">
+      <div class="container">
+        <h2>Deepak Yadav</h2>
+        <p class="title">Backend developer(Java)</p>
+        <p>I believe that developers can make human's life easier and deliver a highly impressive product.Looking forward to deliver some good products in upcoming years. </p>
+        <p>deepak2332271@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images//team2.jpg" alt="Krishna" style="width:100%">
+      <div class="container">
+        <h2>Krishna Nand Yadav</h2>
+        <p class="title">Database Developer(MySQL)</p>
+        <p>I am good at logical thinking and also a good teacher who always try to make learning is a simple job.</p>
+        <p>ky.krish2017@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images//team3_.jpg" alt="Akash" style="width:100%">
+      <div class="container">
+        <h2>Akash Ananth</h2>
+        <p class="title">Frontend developer</p>
+        <p>I am good at html,css and javascript.I am fond of to write novel and for this I am continueously improving myself.</p>
+        <p>natureboy007@gmail.com.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="container">
+<a href="home.html"><button type="submit" class="gobackbtn btn">Home</button></a>
+</div>
+</body>
+</html>
